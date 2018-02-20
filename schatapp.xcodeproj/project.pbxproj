@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B32FB283203BDD2A00A62724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32FB282203BDD2A00A62724 /* AppDelegate.swift */; };
+		B32FB285203BDD2A00A62724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32FB284203BDD2A00A62724 /* ViewController.swift */; };
+		B32FB288203BDD2A00A62724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32FB286203BDD2A00A62724 /* Main.storyboard */; };
+		B32FB28B203BDD2A00A62724 /* schatapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B32FB289203BDD2A00A62724 /* schatapp.xcdatamodeld */; };
+		B32FB28D203BDD2A00A62724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32FB28C203BDD2A00A62724 /* Assets.xcassets */; };
+		B32FB290203BDD2A00A62724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32FB28E203BDD2A00A62724 /* LaunchScreen.storyboard */; };
+		B32FB29B203BDD2A00A62724 /* schatappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32FB29A203BDD2A00A62724 /* schatappTests.swift */; };
+		B32FB2A6203BDD2A00A62724 /* schatappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32FB2A5203BDD2A00A62724 /* schatappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B32FB297203BDD2A00A62724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32FB277203BDD2A00A62724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32FB27E203BDD2A00A62724;
+			remoteInfo = schatapp;
+		};
+		B32FB2A2203BDD2A00A62724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32FB277203BDD2A00A62724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32FB27E203BDD2A00A62724;
+			remoteInfo = schatapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B32FB27F203BDD2A00A62724 /* schatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = schatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32FB282203BDD2A00A62724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B32FB284203BDD2A00A62724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B32FB287203BDD2A00A62724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B32FB28A203BDD2A00A62724 /* schatapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = schatapp.xcdatamodel; sourceTree = "<group>"; };
+		B32FB28C203BDD2A00A62724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B32FB28F203BDD2A00A62724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B32FB291203BDD2A00A62724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32FB296203BDD2A00A62724 /* schatappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = schatappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32FB29A203BDD2A00A62724 /* schatappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schatappTests.swift; sourceTree = "<group>"; };
+		B32FB29C203BDD2A00A62724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32FB2A1203BDD2A00A62724 /* schatappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = schatappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32FB2A5203BDD2A00A62724 /* schatappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schatappUITests.swift; sourceTree = "<group>"; };
+		B32FB2A7203BDD2A00A62724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B32FB27C203BDD2A00A62724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32FB293203BDD2A00A62724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32FB29E203BDD2A00A62724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B32FB276203BDD2A00A62724 = {
+			isa = PBXGroup;
+			children = (
+				B32FB281203BDD2A00A62724 /* schatapp */,
+				B32FB299203BDD2A00A62724 /* schatappTests */,
+				B32FB2A4203BDD2A00A62724 /* schatappUITests */,
+				B32FB280203BDD2A00A62724 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B32FB280203BDD2A00A62724 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B32FB27F203BDD2A00A62724 /* schatapp.app */,
+				B32FB296203BDD2A00A62724 /* schatappTests.xctest */,
+				B32FB2A1203BDD2A00A62724 /* schatappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B32FB281203BDD2A00A62724 /* schatapp */ = {
+			isa = PBXGroup;
+			children = (
+				B32FB282203BDD2A00A62724 /* AppDelegate.swift */,
+				B32FB284203BDD2A00A62724 /* ViewController.swift */,
+				B32FB286203BDD2A00A62724 /* Main.storyboard */,
+				B32FB28C203BDD2A00A62724 /* Assets.xcassets */,
+				B32FB28E203BDD2A00A62724 /* LaunchScreen.storyboard */,
+				B32FB291203BDD2A00A62724 /* Info.plist */,
+				B32FB289203BDD2A00A62724 /* schatapp.xcdatamodeld */,
+			);
+			path = schatapp;
+			sourceTree = "<group>";
+		};
+		B32FB299203BDD2A00A62724 /* schatappTests */ = {
+			isa = PBXGroup;
+			children = (
+				B32FB29A203BDD2A00A62724 /* schatappTests.swift */,
+				B32FB29C203BDD2A00A62724 /* Info.plist */,
+			);
+			path = schatappTests;
+			sourceTree = "<group>";
+		};
+		B32FB2A4203BDD2A00A62724 /* schatappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B32FB2A5203BDD2A00A62724 /* schatappUITests.swift */,
+				B32FB2A7203BDD2A00A62724 /* Info.plist */,
+			);
+			path = schatappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B32FB27E203BDD2A00A62724 /* schatapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32FB2AA203BDD2A00A62724 /* Build configuration list for PBXNativeTarget "schatapp" */;
+			buildPhases = (
+				B32FB27B203BDD2A00A62724 /* Sources */,
+				B32FB27C203BDD2A00A62724 /* Frameworks */,
+				B32FB27D203BDD2A00A62724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = schatapp;
+			productName = schatapp;
+			productReference = B32FB27F203BDD2A00A62724 /* schatapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B32FB295203BDD2A00A62724 /* schatappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32FB2AD203BDD2A00A62724 /* Build configuration list for PBXNativeTarget "schatappTests" */;
+			buildPhases = (
+				B32FB292203BDD2A00A62724 /* Sources */,
+				B32FB293203BDD2A00A62724 /* Frameworks */,
+				B32FB294203BDD2A00A62724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32FB298203BDD2A00A62724 /* PBXTargetDependency */,
+			);
+			name = schatappTests;
+			productName = schatappTests;
+			productReference = B32FB296203BDD2A00A62724 /* schatappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B32FB2A0203BDD2A00A62724 /* schatappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32FB2B0203BDD2A00A62724 /* Build configuration list for PBXNativeTarget "schatappUITests" */;
+			buildPhases = (
+				B32FB29D203BDD2A00A62724 /* Sources */,
+				B32FB29E203BDD2A00A62724 /* Frameworks */,
+				B32FB29F203BDD2A00A62724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32FB2A3203BDD2A00A62724 /* PBXTargetDependency */,
+			);
+			name = schatappUITests;
+			productName = schatappUITests;
+			productReference = B32FB2A1203BDD2A00A62724 /* schatappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B32FB277203BDD2A00A62724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Dhwty;
+				TargetAttributes = {
+					B32FB27E203BDD2A00A62724 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B32FB295203BDD2A00A62724 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B32FB27E203BDD2A00A62724;
+					};
+					B32FB2A0203BDD2A00A62724 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B32FB27E203BDD2A00A62724;
+					};
+				};
+			};
+			buildConfigurationList = B32FB27A203BDD2A00A62724 /* Build configuration list for PBXProject "schatapp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B32FB276203BDD2A00A62724;
+			productRefGroup = B32FB280203BDD2A00A62724 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B32FB27E203BDD2A00A62724 /* schatapp */,
+				B32FB295203BDD2A00A62724 /* schatappTests */,
+				B32FB2A0203BDD2A00A62724 /* schatappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B32FB27D203BDD2A00A62724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32FB290203BDD2A00A62724 /* LaunchScreen.storyboard in Resources */,
+				B32FB28D203BDD2A00A62724 /* Assets.xcassets in Resources */,
+				B32FB288203BDD2A00A62724 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32FB294203BDD2A00A62724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32FB29F203BDD2A00A62724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B32FB27B203BDD2A00A62724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32FB285203BDD2A00A62724 /* ViewController.swift in Sources */,
+				B32FB283203BDD2A00A62724 /* AppDelegate.swift in Sources */,
+				B32FB28B203BDD2A00A62724 /* schatapp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32FB292203BDD2A00A62724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32FB29B203BDD2A00A62724 /* schatappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32FB29D203BDD2A00A62724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32FB2A6203BDD2A00A62724 /* schatappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B32FB298203BDD2A00A62724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32FB27E203BDD2A00A62724 /* schatapp */;
+			targetProxy = B32FB297203BDD2A00A62724 /* PBXContainerItemProxy */;
+		};
+		B32FB2A3203BDD2A00A62724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32FB27E203BDD2A00A62724 /* schatapp */;
+			targetProxy = B32FB2A2203BDD2A00A62724 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B32FB286203BDD2A00A62724 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32FB287203BDD2A00A62724 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B32FB28E203BDD2A00A62724 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32FB28F203BDD2A00A62724 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B32FB2A8203BDD2A00A62724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B32FB2A9203BDD2A00A62724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B32FB2AB203BDD2A00A62724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2TAY6TRFW;
+				INFOPLIST_FILE = schatapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dhwty.schatapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B32FB2AC203BDD2A00A62724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2TAY6TRFW;
+				INFOPLIST_FILE = schatapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dhwty.schatapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B32FB2AE203BDD2A00A62724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2TAY6TRFW;
+				INFOPLIST_FILE = schatappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dhwty.schatappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/schatapp.app/schatapp";
+			};
+			name = Debug;
+		};
+		B32FB2AF203BDD2A00A62724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2TAY6TRFW;
+				INFOPLIST_FILE = schatappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dhwty.schatappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/schatapp.app/schatapp";
+			};
+			name = Release;
+		};
+		B32FB2B1203BDD2A00A62724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2TAY6TRFW;
+				INFOPLIST_FILE = schatappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dhwty.schatappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = schatapp;
+			};
+			name = Debug;
+		};
+		B32FB2B2203BDD2A00A62724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2TAY6TRFW;
+				INFOPLIST_FILE = schatappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dhwty.schatappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = schatapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B32FB27A203BDD2A00A62724 /* Build configuration list for PBXProject "schatapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32FB2A8203BDD2A00A62724 /* Debug */,
+				B32FB2A9203BDD2A00A62724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32FB2AA203BDD2A00A62724 /* Build configuration list for PBXNativeTarget "schatapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32FB2AB203BDD2A00A62724 /* Debug */,
+				B32FB2AC203BDD2A00A62724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32FB2AD203BDD2A00A62724 /* Build configuration list for PBXNativeTarget "schatappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32FB2AE203BDD2A00A62724 /* Debug */,
+				B32FB2AF203BDD2A00A62724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32FB2B0203BDD2A00A62724 /* Build configuration list for PBXNativeTarget "schatappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32FB2B1203BDD2A00A62724 /* Debug */,
+				B32FB2B2203BDD2A00A62724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B32FB289203BDD2A00A62724 /* schatapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B32FB28A203BDD2A00A62724 /* schatapp.xcdatamodel */,
+			);
+			currentVersion = B32FB28A203BDD2A00A62724 /* schatapp.xcdatamodel */;
+			path = schatapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B32FB277203BDD2A00A62724 /* Project object */;
+}
