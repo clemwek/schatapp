@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		566CB2434568647A4061AC1F /* Pods_schatappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA7FB3EE4E7BEE93ED4F7B9 /* Pods_schatappTests.framework */; };
+		7C3AB853DA3195856ADAE504 /* Pods_schatappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DE6C6A5E6382784F69ACA1 /* Pods_schatappUITests.framework */; };
 		B32FB283203BDD2A00A62724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32FB282203BDD2A00A62724 /* AppDelegate.swift */; };
 		B32FB285203BDD2A00A62724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32FB284203BDD2A00A62724 /* ViewController.swift */; };
 		B32FB288203BDD2A00A62724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32FB286203BDD2A00A62724 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		B32FB290203BDD2A00A62724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32FB28E203BDD2A00A62724 /* LaunchScreen.storyboard */; };
 		B32FB29B203BDD2A00A62724 /* schatappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32FB29A203BDD2A00A62724 /* schatappTests.swift */; };
 		B32FB2A6203BDD2A00A62724 /* schatappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32FB2A5203BDD2A00A62724 /* schatappUITests.swift */; };
+		B32FB2B4203BDDA800A62724 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B32FB2B3203BDDA800A62724 /* GoogleService-Info.plist */; };
+		F95C70BF42D13CCD93D27832 /* Pods_schatapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC301AFA716EA185628CA9BD /* Pods_schatapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ABAE96860C7A94B1CF6AD65 /* Pods-schatapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-schatapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-schatapp/Pods-schatapp.debug.xcconfig"; sourceTree = "<group>"; };
+		10B32FAE593AA8275ED87094 /* Pods-schatappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-schatappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-schatappTests/Pods-schatappTests.release.xcconfig"; sourceTree = "<group>"; };
+		24AD0F972A2EAA8981995516 /* Pods-schatappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-schatappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-schatappUITests/Pods-schatappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D95267A0DF62F71F7F8EEA8 /* Pods-schatappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-schatappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-schatappTests/Pods-schatappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89705472884121F31EB6A70A /* Pods-schatapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-schatapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-schatapp/Pods-schatapp.release.xcconfig"; sourceTree = "<group>"; };
+		94DE6C6A5E6382784F69ACA1 /* Pods_schatappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_schatappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA7FB3EE4E7BEE93ED4F7B9 /* Pods_schatappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_schatappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32FB27F203BDD2A00A62724 /* schatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = schatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32FB282203BDD2A00A62724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B32FB284203BDD2A00A62724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,10 @@
 		B32FB2A1203BDD2A00A62724 /* schatappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = schatappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32FB2A5203BDD2A00A62724 /* schatappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schatappUITests.swift; sourceTree = "<group>"; };
 		B32FB2A7203BDD2A00A62724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32FB2B3203BDDA800A62724 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B32FB2B5203BDF9F00A62724 /* schatapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = schatapp.entitlements; sourceTree = "<group>"; };
+		CC301AFA716EA185628CA9BD /* Pods_schatapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_schatapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E209123581C51EA567D9E55D /* Pods-schatappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-schatappUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-schatappUITests/Pods-schatappUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95C70BF42D13CCD93D27832 /* Pods_schatapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566CB2434568647A4061AC1F /* Pods_schatappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +87,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3AB853DA3195856ADAE504 /* Pods_schatappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B4A3010C03A0CA4963D534F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ABAE96860C7A94B1CF6AD65 /* Pods-schatapp.debug.xcconfig */,
+				89705472884121F31EB6A70A /* Pods-schatapp.release.xcconfig */,
+				2D95267A0DF62F71F7F8EEA8 /* Pods-schatappTests.debug.xcconfig */,
+				10B32FAE593AA8275ED87094 /* Pods-schatappTests.release.xcconfig */,
+				24AD0F972A2EAA8981995516 /* Pods-schatappUITests.debug.xcconfig */,
+				E209123581C51EA567D9E55D /* Pods-schatappUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77D2ED962C107C15EB754A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC301AFA716EA185628CA9BD /* Pods_schatapp.framework */,
+				9DA7FB3EE4E7BEE93ED4F7B9 /* Pods_schatappTests.framework */,
+				94DE6C6A5E6382784F69ACA1 /* Pods_schatappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B32FB276203BDD2A00A62724 = {
 			isa = PBXGroup;
 			children = (
+				77D2ED962C107C15EB754A92 /* Frameworks */,
+				B32FB280203BDD2A00A62724 /* Products */,
 				B32FB281203BDD2A00A62724 /* schatapp */,
 				B32FB299203BDD2A00A62724 /* schatappTests */,
 				B32FB2A4203BDD2A00A62724 /* schatappUITests */,
-				B32FB280203BDD2A00A62724 /* Products */,
+				5B4A3010C03A0CA4963D534F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +142,14 @@
 		B32FB281203BDD2A00A62724 /* schatapp */ = {
 			isa = PBXGroup;
 			children = (
+				B32FB2B5203BDF9F00A62724 /* schatapp.entitlements */,
 				B32FB282203BDD2A00A62724 /* AppDelegate.swift */,
 				B32FB284203BDD2A00A62724 /* ViewController.swift */,
 				B32FB286203BDD2A00A62724 /* Main.storyboard */,
 				B32FB28C203BDD2A00A62724 /* Assets.xcassets */,
 				B32FB28E203BDD2A00A62724 /* LaunchScreen.storyboard */,
 				B32FB291203BDD2A00A62724 /* Info.plist */,
+				B32FB2B3203BDDA800A62724 /* GoogleService-Info.plist */,
 				B32FB289203BDD2A00A62724 /* schatapp.xcdatamodeld */,
 			);
 			path = schatapp;
@@ -135,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B32FB2AA203BDD2A00A62724 /* Build configuration list for PBXNativeTarget "schatapp" */;
 			buildPhases = (
+				D09E5BF29E023E6456584B33 /* [CP] Check Pods Manifest.lock */,
 				B32FB27B203BDD2A00A62724 /* Sources */,
 				B32FB27C203BDD2A00A62724 /* Frameworks */,
 				B32FB27D203BDD2A00A62724 /* Resources */,
+				4EB3CE548882356CF2398B95 /* [CP] Embed Pods Frameworks */,
+				6C86F2248C9A48881A1A4A7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B32FB2AD203BDD2A00A62724 /* Build configuration list for PBXNativeTarget "schatappTests" */;
 			buildPhases = (
+				E7B0150CDAC5EA5F458AD7F6 /* [CP] Check Pods Manifest.lock */,
 				B32FB292203BDD2A00A62724 /* Sources */,
 				B32FB293203BDD2A00A62724 /* Frameworks */,
 				B32FB294203BDD2A00A62724 /* Resources */,
+				D84B065095F98E2FB6DD6E4A /* [CP] Embed Pods Frameworks */,
+				25794A2EF84BDB42BE2DBF6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B32FB2B0203BDD2A00A62724 /* Build configuration list for PBXNativeTarget "schatappUITests" */;
 			buildPhases = (
+				4CC42810A67AA4199243CADB /* [CP] Check Pods Manifest.lock */,
 				B32FB29D203BDD2A00A62724 /* Sources */,
 				B32FB29E203BDD2A00A62724 /* Frameworks */,
 				B32FB29F203BDD2A00A62724 /* Resources */,
+				1020EB7AE8B6DE75263BE3A8 /* [CP] Embed Pods Frameworks */,
+				855B4B13581C10F2DEBA718A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +251,11 @@
 					B32FB27E203BDD2A00A62724 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					B32FB295203BDD2A00A62724 = {
 						CreatedOnToolsVersion = 9.2;
@@ -236,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B32FB290203BDD2A00A62724 /* LaunchScreen.storyboard in Resources */,
+				B32FB2B4203BDDA800A62724 /* GoogleService-Info.plist in Resources */,
 				B32FB28D203BDD2A00A62724 /* Assets.xcassets in Resources */,
 				B32FB288203BDD2A00A62724 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +316,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1020EB7AE8B6DE75263BE3A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-schatappUITests/Pods-schatappUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25794A2EF84BDB42BE2DBF6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-schatappTests/Pods-schatappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CC42810A67AA4199243CADB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-schatappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB3CE548882356CF2398B95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-schatapp/Pods-schatapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-schatapp/Pods-schatapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C86F2248C9A48881A1A4A7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-schatapp/Pods-schatapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		855B4B13581C10F2DEBA718A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-schatappUITests/Pods-schatappUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09E5BF29E023E6456584B33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-schatapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D84B065095F98E2FB6DD6E4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-schatappTests/Pods-schatappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B0150CDAC5EA5F458AD7F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-schatappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B32FB27B203BDD2A00A62724 /* Sources */ = {
@@ -428,11 +640,14 @@
 		};
 		B32FB2AB203BDD2A00A62724 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ABAE96860C7A94B1CF6AD65 /* Pods-schatapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = schatapp/schatapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z2TAY6TRFW;
 				INFOPLIST_FILE = schatapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dhwty.schatapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,11 +658,14 @@
 		};
 		B32FB2AC203BDD2A00A62724 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89705472884121F31EB6A70A /* Pods-schatapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = schatapp/schatapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z2TAY6TRFW;
 				INFOPLIST_FILE = schatapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dhwty.schatapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,6 +676,7 @@
 		};
 		B32FB2AE203BDD2A00A62724 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D95267A0DF62F71F7F8EEA8 /* Pods-schatappTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +694,7 @@
 		};
 		B32FB2AF203BDD2A00A62724 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B32FAE593AA8275ED87094 /* Pods-schatappTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +712,7 @@
 		};
 		B32FB2B1203BDD2A00A62724 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AD0F972A2EAA8981995516 /* Pods-schatappUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +729,7 @@
 		};
 		B32FB2B2203BDD2A00A62724 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E209123581C51EA567D9E55D /* Pods-schatappUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
